@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+    
+    <title>
+    
+    Listing
+    
+    </title>
+    <script type="text/javascript" src="register.js"></script>
+    <link rel="stylesheet" type="text/css" href="listing.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+
+    
+        <header>
+    <div class="container">
+      <h1 class="logo"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Listing</a></li>
+          <li><a href="processing.htm">Processing</a></li>
+           <li><a href="logout.htm">Logout</a></li> 
+         
+        </ul>
+      </nav>
+    </div>
+    
+  </header>
+
+  
+        <div class="form-wrap">
+        
+            <form>
+            
+                
+                 <table border="3px" bordercolor="black" bgcolor="#CFCDCD">
+    <tr class="noBorder"><td colspan="2" align="center"><font color="red" size="6"><b>Add New Item</b></font></td></tr>
+    <tr class="noBorder"><td><label>Item Name: </label></td><td><input type="text" id="i_name" ></td></tr>
+    <tr class="noBorder"><td> <label>Item Price: </label></td><td><input type="text" id="i_price"></td></tr>
+    <tr class="noBorder"><td><label>Item Quantity: </label></td><td><input type="text" id="qty" ></td></tr>
+    <tr class="noBorder"><td><label>Item Description: </label></td><td> <textarea id="desc" rows="6" cols="40"></textarea> </td></tr>
+    <tr class="noBorder"><td>
+    <input type="button" value="Reset" onClick="return resset()"></td></td>
+    <td>
+    <input type="button" value="Add Item" onClick="return add_item()">
+    </td>
+    </tr>
+    </table>
+            
+            </form>
+        
+        </div>
+    
+    <div id="information"> </div>
+    </body>
+
+
+</HTML>

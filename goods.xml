@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Goods>
+  <Item>
+    <ItemName>Iphone 8</ItemName>
+    <ItemPrice>80000</ItemPrice>
+    <ItemQuantity>8</ItemQuantity>
+    <ItemDescription>Apple makes iphones</ItemDescription>
+    <ItemNumber>1539865292752</ItemNumber>
+    <ItemHold>2</ItemHold>
+    <ItemSold>3</ItemSold>
+  </Item>
+</Goods>
